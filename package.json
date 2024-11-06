@@ -1,4 +1,6 @@
 {
+  "name": "tailwind-firebase-nextjs-referrel-system",
+  "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "scripts": {
