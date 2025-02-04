@@ -1,14 +1,14 @@
 {
-  "name": "tailwind-firebase-nextjs-referrel-system",
+  "name": "zion-referral",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "seed": "node -r dotenv/config ./scripts/seed.js"
+    "dev": "pnpm next dev",
+    "build": "pnpm next build",
+    "start": "pnpm next start",
+    "lint": "pnpm next lint",
+    "seed": "pnpm node -r dotenv/config ./scripts/seed.js"
   },
   "dependencies": {
     "@auth/firebase-adapter": "^1.0.3",
@@ -54,5 +54,5 @@
   "browser": {
     "crypto": false
   },
-  "packageManager": "yarn@4.0.1"
+  "packageManager": "pnpm@8.6.0"
 }

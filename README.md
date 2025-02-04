@@ -47,7 +47,7 @@ The template is set up for optimal deployment on Vercel allowing features like p
 ```  
 git clone https://github.com/yourname/nextjs14-web-template  
 cd nextjs14-web-template
-yarn install  
+pnpm install  
 ```
 
 ### ⚙️ Configuration  
@@ -57,7 +57,7 @@ Copy `.env.local.example` to `.env.local` and add your Firebase and SendGrid cre
 ### ▶️ Run development server
 
 ```
-yarn dev
+pnpm dev
 ```   
 
 Open http://localhost:3000 to view the app.  
